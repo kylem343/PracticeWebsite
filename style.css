@@ -25,20 +25,26 @@
 
 
     .block {
+        display: inline-block;
         background-color: White;
-        margin: 0 500px
-        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
         height: 300px;
+
     }
 
     .icon {
-        padding-top: 30px;
-        padding-left: 10px;
+        display: block;
+        margin: 10px;
+
+        padding: 15px;
+        border: 1px solid Red;
+
     }
 
     .icon img {
-        width: 100%;
-        height: auto;
+        margin: 10px;
     }
 
     .icon img:hover {
@@ -46,5 +52,6 @@
     }
 
     .icon a{
-        padding-left:10px;
+
+        font-size: 0;
     }
